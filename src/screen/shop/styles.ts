@@ -17,11 +17,25 @@ export const Wrapper = styled.View`
   padding: 0 10px;
 `;
 export const CardProduct = styled.View`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   margin: 10px 10px;
   width: 45%;
-  height: 100px;
+  height: 150px;
   align-items: center;
-  border: 1px solid black;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
   justify-content: center;
+ 
 `;
+export const ImageContainer = styled.View`
+flex: 1;`
+export const Content = styled.View`
+flex: 1;
+`
 
+export const AddBtn = styled.TouchableOpacity`
+  
+
+`
