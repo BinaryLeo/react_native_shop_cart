@@ -12,16 +12,21 @@
     "expo": "~46.0.9",
     "expo-splash-screen": "~0.16.2",
     "expo-status-bar": "~1.4.0",
+    "intl": "^1.2.5",
     "react": "18.0.0",
     "react-dom": "18.0.0",
     "react-native": "0.69.4",
-    "react-native-web": "~0.18.7"
+    "react-native-intl": "^1.0.0",
+    "react-native-web": "~0.18.7",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
+    "redux-toolkit": "^1.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
-    "typescript": "^4.6.3",
     "@types/react": "~18.0.0",
-    "@types/react-native": "~0.69.1"
+    "@types/react-native": "~0.69.1",
+    "typescript": "^4.6.3"
   },
   "private": true
 }
