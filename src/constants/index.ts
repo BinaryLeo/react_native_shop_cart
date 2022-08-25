@@ -36,5 +36,77 @@ export const products: IProduct[] = [
         inStock:true,
         image:'https://files.tecnoblog.net/wp-content/uploads/2021/01/imagem-padrao-fundo-transparente-quadrado-700x700.png'
 
+    },
+    {
+        id: 5,
+        name: 'Product 4',
+        brand:'Apple',
+        price: 0,
+        inStock:true,
+        image:'https://files.tecnoblog.net/wp-content/uploads/2021/01/imagem-padrao-fundo-transparente-quadrado-700x700.png'
+
+    },
+    {
+        id: 6,
+        name: 'Product 4',
+        brand:'Apple',
+        price: 0,
+        inStock:true,
+        image:'https://files.tecnoblog.net/wp-content/uploads/2021/01/imagem-padrao-fundo-transparente-quadrado-700x700.png'
+
+    },
+    {
+        id: 7,
+        name: 'Product 4',
+        brand:'Apple',
+        price: 0,
+        inStock:true,
+        image:'https://files.tecnoblog.net/wp-content/uploads/2021/01/imagem-padrao-fundo-transparente-quadrado-700x700.png'
+
+    },
+    {
+        id: 8,
+        name: 'Product 4',
+        brand:'Apple',
+        price: 0,
+        inStock:true,
+        image:'https://files.tecnoblog.net/wp-content/uploads/2021/01/imagem-padrao-fundo-transparente-quadrado-700x700.png'
+
+    },
+    {
+        id: 9,
+        name: 'Product 4',
+        brand:'Apple',
+        price: 0,
+        inStock:true,
+        image:'https://files.tecnoblog.net/wp-content/uploads/2021/01/imagem-padrao-fundo-transparente-quadrado-700x700.png'
+
+    },
+    {
+        id: 10,
+        name: 'Product 4',
+        brand:'Apple',
+        price: 0,
+        inStock:true,
+        image:'https://files.tecnoblog.net/wp-content/uploads/2021/01/imagem-padrao-fundo-transparente-quadrado-700x700.png'
+
+    },
+    {
+        id: 11,
+        name: 'Product 4',
+        brand:'Apple',
+        price: 0,
+        inStock:true,
+        image:'https://files.tecnoblog.net/wp-content/uploads/2021/01/imagem-padrao-fundo-transparente-quadrado-700x700.png'
+
+    },
+    {
+        id: 12,
+        name: 'Product 4',
+        brand:'Apple',
+        price: 0,
+        inStock:true,
+        image:'https://files.tecnoblog.net/wp-content/uploads/2021/01/imagem-padrao-fundo-transparente-quadrado-700x700.png'
+
     }
 ]
