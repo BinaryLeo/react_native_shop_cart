@@ -1,8 +1,11 @@
 import {SafeAreaView} from 'react-native'
 import { Shop } from './screen/shop';
-export const Startup =()=>{
+interface Props {
+   onLayout: () => void;
+ }
+export  function Startup({onLayout}:Props){
 return(
-   <SafeAreaView>
+   <SafeAreaView onLayout={onLayout}>
     <Shop/>
    </SafeAreaView>
 )

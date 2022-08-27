@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo-google-fonts/poppins": "^0.2.2",
     "expo": "~46.0.9",
     "expo-splash-screen": "~0.16.2",
     "expo-status-bar": "~1.4.0",
@@ -17,6 +18,7 @@
     "react-dom": "18.0.0",
     "react-native": "0.69.4",
     "react-native-intl": "^1.0.0",
+    "react-native-responsive-fontsize": "^0.5.1",
     "react-native-web": "~0.18.7",
     "react-redux": "^8.0.2",
     "redux": "^4.2.0",

@@ -1,12 +1,23 @@
-import { Button, Text, Image, FlatList } from "react-native";
+import {Text, Image, FlatList } from "react-native";
 import { products } from "../../constants";
 import 'intl';
 import 'intl/locale-data/jsonp/en';
-import {Container,ListContainer,Wrapper,CardProduct,ImageContainer,Content,AddBtn} from './styles'
+import {
+  Container,
+  ListContainer,
+  Wrapper,
+  CardProduct,
+  ImageContainer,
+  Content,
+  Title,
+  Brand,
+  Price
+} from './styles'
+import { Button } from "../../components/Button";
 export const Shop = () => {
   return (
     <Container>
-      <Text>Binary Store</Text>
+      <Text style={{marginTop: 20, fontSize:20, fontWeight: '600'}}>Binary Store</Text>
       <ListContainer>
       <Wrapper>
      
@@ -18,19 +29,22 @@ export const Shop = () => {
       renderItem={({item})=>(
           <CardProduct>
           <ImageContainer>
-          <Image style={{height: 80, left: 0, right: 0}} source={{ uri: item.image }} />
+          <Image style={{height: 80, width:80, top: 20,left: 0, right: 0}} source={{ uri: item.image }} />
           </ImageContainer>  
           <Content>
-          <Text>{item.name}</Text>
-          <Text>{item.brand}</Text>
-          <Text>{Intl.NumberFormat('en-US',{
+          <Title>{item.name}</Title>
+          <Brand>{item.brand}</Brand>
+          <Price>{Intl.NumberFormat('en-US',{
             style:'currency',
             currency:'USD'
-          }).format(item.price)}</Text>
-          <AddBtn onPress={() => alert('Added')}>
-            <Text>Add</Text>
-          </AddBtn>
-              
+          }).format(item.price)}</Price>
+          
+             <Button
+             title="Add cart"
+             icon="plus"
+             onPress={() => alert('Added to the cart')}
+
+             />  
           </Content>
         
         </CardProduct>
@@ -38,7 +52,7 @@ export const Shop = () => {
       />
       </Wrapper>
       </ListContainer>
-      <Text>sssss</Text>
+     
     </Container>
   );
 };
