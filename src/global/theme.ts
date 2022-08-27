@@ -10,6 +10,7 @@ export default{
         regular: 'Poppins_400Regular', 
         medium: 'Poppins_500Medium',
         bold: 'Poppins_700Bold',
-        semiBold: 'Poppins_600SemiBold'
+        semiBold: 'Poppins_600SemiBold',
+        italic: 'Poppins_400Regular_Italic',
     }
 }

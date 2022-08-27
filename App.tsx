@@ -9,6 +9,7 @@ import {
   Poppins_500Medium,
   Poppins_700Bold,
   Poppins_600SemiBold,
+  Poppins_400Regular_Italic
 } from "@expo-google-fonts/poppins";
 import { Startup } from "./src";
 export default function App() {
@@ -18,10 +19,12 @@ export default function App() {
       try {
         await SplashScreen.preventAutoHideAsync();
         await Font.loadAsync({
+          Poppins_400Regular_Italic,
           Poppins_400Regular,
           Poppins_500Medium,
           Poppins_700Bold,
           Poppins_600SemiBold,
+          
         });
       } catch (e) {
         console.warn(e);
@@ -40,7 +43,7 @@ export default function App() {
   }
   return (
     <ThemeProvider theme={theme}>
-      <View>
+      <View style={{ backgroundColor: "#eaeaea" }}>
         <Startup onLayout={onLayout} />
       </View>
     </ThemeProvider>
