@@ -1,21 +1,21 @@
-import {createSlice} from '@reduxjs/toolkit';
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
-export const initialState ={
-cart:[]
-}
-import { ICart } from '../../../types';
-export const CartData =createSlice({
-    name:'cartData',
-    initialState:initialState,
-    reducers: {
-        addNewItem:(state: ICart,action)=>{
-            console.log('Payload',action.payload);
-            console.log('State',state);
-            state.cart= [...state.cart, action.payload];
-        }
-    }
-})
+export const initialState = {
+  cart: [], //Initial state of the cart
+};
+import { ICart, IProduct, ICartState } from "../../../types";
+export const CartData = createSlice({
+  name: "cartData",
+  initialState: initialState,
+  reducers: {
+    addNewItem: (state: ICart, action: PayloadAction<IProduct>) => {
+      console.log("Payload", action.payload);
+      console.log("State", state);
+      state.cart = [...state.cart, action.payload];
+    },
+  },
+});
 
-export const {addNewItem} =CartData.actions
-export const cardStateData = (state:any) => state.cartData
-export default CartData.reducer
+export const { addNewItem } = CartData.actions;
+export const cardStateData = (state: ICartState) => state.cart.cart;
+export default CartData.reducer;

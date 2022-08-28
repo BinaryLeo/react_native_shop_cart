@@ -15,7 +15,7 @@ export const ListContainer = styled.View`
   padding: 5px;
 `;
 export const Wrapper = styled.View`
-  margin-top: 30px;
+  margin-top: 10px;
 `;
 export const CardProduct = styled.View`
   background-color: #fff;
