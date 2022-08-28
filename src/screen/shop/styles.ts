@@ -11,7 +11,7 @@ export const Container = styled.View`
 `;
 export const ListContainer = styled.View`
   width: 100%;
-  height: 95%;
+  height: 90%;
   padding: 5px;
 `;
 export const Wrapper = styled.View`

@@ -7,3 +7,6 @@ export interface IProduct {
   inStock: true;
  
 }
+export interface ICart{
+  cart: IProduct[];
+}
