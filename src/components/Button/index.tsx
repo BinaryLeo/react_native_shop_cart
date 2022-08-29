@@ -1,5 +1,4 @@
 import { Text, TouchableOpacity, TouchableOpacityProps } from 'react-native';
-
 import { Feather } from '@expo/vector-icons';
 import { styles } from './styles';
 type Props = TouchableOpacityProps & {

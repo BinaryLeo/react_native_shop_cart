@@ -1,9 +1,10 @@
 import styled from "styled-components/native";
-import { RFValue } from "react-native-responsive-fontsize";
+import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
 
 export const Container = styled.View`
   background-color: #eaeaea;
   width: 100%;
+  height:100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -11,11 +12,13 @@ export const Container = styled.View`
 `;
 export const ListContainer = styled.View`
   width: 100%;
-  height: 90%;
+  height: 100%;
   padding: 5px;
+  
 `;
 export const Wrapper = styled.View`
   margin-top: 10px;
+  margin-bottom: ${RFPercentage(20)}px;
 `;
 export const CardProduct = styled.View`
   background-color: #fff;
@@ -46,6 +49,7 @@ export const ImageContainer = styled.View`
   flex: 1;
 `;
 export const Content = styled.View`
+  margin-bottom: 10px;
   flex: 1;
 `;
 

@@ -29,3 +29,13 @@ export const NotificationCart = styled.Text`
   background-color: ${({ theme }) => theme.colors.main};
   border-radius: 20px;
 `;
+export const ModalLabel = styled.Text`
+  font-size: ${RFValue(18)}px;
+  font-family: ${({ theme }) => theme.fonts.medium};
+  color: ${({ theme }) => theme.colors.primary};
+`;
+export const CloseBtn = styled.View`
+  width: 100%;
+  align-items: flex-end;
+  margin-right: 0px;
+`;

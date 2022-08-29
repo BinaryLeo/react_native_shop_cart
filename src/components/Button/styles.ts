@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
     color: "#111729",
     fontWeight: "bold",
     fontSize: 14,
-    marginLeft: 10,
-    //fontFamily: theme.fonts.bold
+    marginLeft:'10%',
+    marginRight:'10%'
   },
 });
