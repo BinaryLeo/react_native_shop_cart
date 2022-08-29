@@ -1,7 +1,7 @@
 
 <div align="center" style="margin: 20px; text-align: center">
 <p>Binary Shopy</p>
-<p>A react native, shop cart using redux toolkit.</p>
+<p>A react native, shopping cart using redux toolkit.</p>
 <p>Built during the Devs for Tech - React Native program, for study purposes only.
  
  
