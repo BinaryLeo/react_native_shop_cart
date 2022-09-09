@@ -11,7 +11,8 @@
   ![GitHub last commit](https://img.shields.io/github/last-commit/BinaryLeo/react_native_shop_cart?style=flat-square)
   ![GitHub top language](https://img.shields.io/github/languages/top/BinaryLeo/react_native_shop_cart?style=flat-square)
   
-
+[![My Skills](https://skillicons.dev/icons?i=react,ts,vscode,styledcomponents,redux,&perline=6)](https://github.com/BinaryLeo)
+ 
 
  
 
@@ -27,7 +28,7 @@ https://user-images.githubusercontent.com/72607039/187095434-31866a47-1474-41dd-
   
 </div>
 
-## ✅ Technologies
+## ✅ Technologies and libs
 - ``Expo bare workflow``
 - ``React Native``
 - ``Redux``
@@ -37,10 +38,27 @@ https://user-images.githubusercontent.com/72607039/187095434-31866a47-1474-41dd-
 - ``responsive font-size`` 
 - ``Styled Components``
 
+```bash
+
+# npx expo install @expo/vector-icons
+# yarn add @expo/vector-icons
+
+# npm i intl
+# yarn add intl
+
+# npm i styled-components
+# yarn add styled-components
+
+# npm i @types/styled-components-react-native
+# yarn add @types/styled-components-react-native
+
+# npm i react-native-responsive-fontsize
+# yarn add react-native-responsive-fontsize
+
+```
 
 
-
-
+Built with 💖 love and burning my 🧠 brain - by Binary Leo 👋🏻 &nbsp;[Find me on linkedin!](https://www.linkedin.com/in/leonardo-moura-92b513209/)
 
 
 
