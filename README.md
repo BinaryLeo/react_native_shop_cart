@@ -43,16 +43,16 @@ https://user-images.githubusercontent.com/72607039/187095434-31866a47-1474-41dd-
 # npx expo install @expo/vector-icons
 # yarn add @expo/vector-icons
 
-# npm i intl
+# npm install intl
 # yarn add intl
 
-# npm i styled-components
+# npm install styled-components
 # yarn add styled-components
 
-# npm i @types/styled-components-react-native
+# npm install @types/styled-components-react-native
 # yarn add @types/styled-components-react-native
 
-# npm i react-native-responsive-fontsize
+# npm install react-native-responsive-fontsize --save
 # yarn add react-native-responsive-fontsize
 
 ```
