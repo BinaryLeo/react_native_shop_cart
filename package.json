@@ -17,7 +17,7 @@
     "intl": "^1.2.5",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "react-native": "0.69.4",
+    "react-native": "0.69.9",
     "react-native-intl": "^1.0.0",
     "react-native-responsive-fontsize": "^0.5.1",
     "react-native-web": "~0.18.7",
